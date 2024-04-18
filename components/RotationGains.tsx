@@ -36,6 +36,8 @@ import {
     virtualAngleStepBasedGain,
     velocityGuidedGain,
 } from '../scripts/gain-techniques'
+import LeftInfoBox from './LeftInfoBox'
+import RightTechniquesBox from './RightTechniquesBox'
 
 export enum TechniquesEnum {
     Constant = 'constant',
@@ -48,6 +50,7 @@ export enum TechniquesEnum {
 
 const RotationGains: React.FC = () => {
     // Dynamic Gain Default values and states
+    const defaultGain = 1
     const defaultMinGain = 1
     const defaultMaxGain = 2.5
     const defaultHalfRotation = 90
@@ -90,7 +93,7 @@ const RotationGains: React.FC = () => {
     const [amplifiedVirtualAngle, setAmplifiedVirtualAngle] = useState(0)
     // const [accuAngle, setAccuAmplifiedAngle] = useState(0)
     const [step, setStep] = useState(0.5)
-    const [gain, setGain] = useState(0)
+    const [gain, setGain] = useState(defaultGain)
     const [velocity, setVelocity] = useState(25)
     const [points, setPoints] = useState<
         {
@@ -346,240 +349,42 @@ const RotationGains: React.FC = () => {
 
     return (
         <>
-            <Box
-                position="fixed"
-                top="5px"
-                left="5px"
-                backgroundColor="#f0f0f0"
-                padding="20px"
-                boxShadow="0 2px 5px rgba(0, 0, 0, 0.2)"
-                minW="300px"
-            >
-                <Stack>
-                    <Stack isInline>
-                        <Text fontWeight="bold">Gain:</Text>
-                        <Tag colorScheme="purple">{gain}</Tag>
-                    </Stack>
-                    <Stack isInline>
-                        <Text fontWeight="bold">Input Angle:</Text>
-                        <Tag colorScheme="purple">{inputPhysicalAngle}</Tag>
-                    </Stack>
-                    <Stack isInline>
-                        <Text fontWeight="bold">Amplified Angle:</Text>
-                        <Tag colorScheme="purple">{amplifiedVirtualAngle}</Tag>
-                    </Stack>
-                    <Stack isInline>
-                        <Text fontWeight="bold">Angle Slider Step:</Text>
-                        <Input
-                            type="number"
-                            size="sm"
-                            variant="outline"
-                            placeholder="Enter Gain..."
-                            width="120px"
-                            value={step}
-                            onChange={handleStepInputChange}
-                        />
-                    </Stack>
-                </Stack>
-            </Box>
-            <Box position="fixed" top="0" right="0">
-                <RadioGroup onChange={handleTechniquesChange} value={technique}>
-                    <Stack>
-                        <Box
-                            backgroundColor="#f0f0f0"
-                            padding="20px"
-                            boxShadow="0 2px 5px rgba(0, 0, 0, 0.2)"
-                        >
-                            <Stack direction="column">
-                                <Stack isInline>
-                                    <Radio value={TechniquesEnum.Constant}>Constant</Radio>
-                                    <Input
-                                        type="number"
-                                        size="sm"
-                                        variant="outline"
-                                        placeholder="Enter Gain..."
-                                        width="120px"
-                                        value={gain}
-                                        onChange={handleGainInputChange}
-                                    />
-                                </Stack>
-                                <Stack isInline>
-                                    <Radio value={TechniquesEnum.ConstantIndirectMap}>
-                                        Indirect Map Constant
-                                    </Radio>
-                                </Stack>
-                            </Stack>
-                        </Box>
-                        <Box
-                            backgroundColor="#f0f0f0"
-                            padding="20px"
-                            boxShadow="0 2px 5px rgba(0, 0, 0, 0.2)"
-                        >
-                            <Stack>
-                                <Radio value={TechniquesEnum.VelocityGuided}>Velocity Guided</Radio>
-                            </Stack>
-                        </Box>
-                        <Box
-                            backgroundColor="#f0f0f0"
-                            padding="20px"
-                            boxShadow="0 2px 5px rgba(0, 0, 0, 0.2)"
-                        >
-                            <Stack>
-                                <Radio value={TechniquesEnum.DynamicNonLinear}>
-                                    Dynamic Non-Linear
-                                </Radio>
-                                <Box>
-                                    <VStack spacing={4}>
-                                        <Stack isInline>
-                                            <Text>Min Gain:</Text>
-                                            <Input
-                                                type="number"
-                                                value={minGain}
-                                                onChange={(e) =>
-                                                    setMinGain(parseFloat(e.target.value))
-                                                }
-                                                width="120px"
-                                                size="sm"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text>Max Gain:</Text>
-                                            <Input
-                                                type="number"
-                                                value={maxGain}
-                                                onChange={(e) =>
-                                                    setMaxGain(parseFloat(e.target.value))
-                                                }
-                                                width="120px"
-                                                size="sm"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text>Half Rotation:</Text>
-                                            <Input
-                                                type="number"
-                                                value={halfRotation}
-                                                onChange={(e) =>
-                                                    setHalfRotation(parseFloat(e.target.value))
-                                                }
-                                                width="120px"
-                                                size="sm"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text>Target Rotation:</Text>
-                                            <Input
-                                                type="number"
-                                                value={targetRotation}
-                                                onChange={(e) =>
-                                                    setTargetRotation(parseFloat(e.target.value))
-                                                }
-                                                width="120px"
-                                                size="sm"
-                                            />
-                                        </Stack>
-                                    </VStack>
-                                </Box>
-                            </Stack>
-                        </Box>
-                        <Box
-                            backgroundColor="#f0f0f0"
-                            padding="20px"
-                            boxShadow="0 2px 5px rgba(0, 0, 0, 0.2)"
-                        >
-                            <Stack>
-                                <Radio value={TechniquesEnum.physicalAngleStepBasedGain}>
-                                    Physical Angle Step Based
-                                </Radio>
-                                <Radio value={TechniquesEnum.virtualAngleStepBasedGain}>
-                                    Virtual Angle Step Based
-                                </Radio>
-                                <Box>
-                                    <Stack spacing={4}>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step1:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step1}
-                                                onChange={(e) =>
-                                                    setStep1(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 1"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step2:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step2}
-                                                onChange={(e) =>
-                                                    setStep2(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 2"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step3:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step3}
-                                                onChange={(e) =>
-                                                    setStep3(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 3"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step4:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step4}
-                                                onChange={(e) =>
-                                                    setStep4(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 4"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step5:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step5}
-                                                onChange={(e) =>
-                                                    setStep5(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 5"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step6:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step6}
-                                                onChange={(e) =>
-                                                    setStep6(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 6"
-                                            />
-                                        </Stack>
-                                        <Stack isInline>
-                                            <Text fontWeight="bold">Step7:</Text>
-                                            <Input
-                                                size="sm"
-                                                value={step7}
-                                                onChange={(e) =>
-                                                    setStep7(parseFloat(e.target.value))
-                                                }
-                                                placeholder="Step 7"
-                                            />
-                                        </Stack>
-                                    </Stack>
-                                </Box>
-                            </Stack>
-                        </Box>
-                    </Stack>
-                </RadioGroup>
-            </Box>
+            <LeftInfoBox
+                gain={gain}
+                amplifiedVirtualAngle={amplifiedVirtualAngle}
+                handleStepInputChange={handleStepInputChange}
+                inputPhysicalAngle={inputPhysicalAngle}
+                step={step}
+            />
+
+            <RightTechniquesBox
+                handleTechniquesChange={handleTechniquesChange}
+                technique={technique}
+                gain={gain}
+                handleGainInputChange={handleGainInputChange}
+                minGain={minGain}
+                setMinGain={setMinGain}
+                maxGain={maxGain}
+                setMaxGain={setMaxGain}
+                halfRotation={halfRotation}
+                setHalfRotation={setHalfRotation}
+                targetRotation={targetRotation}
+                setTargetRotation={setTargetRotation}
+                step1={step1}
+                setStep1={setStep1}
+                step2={step2}
+                setStep2={setStep2}
+                step3={step3}
+                setStep3={setStep3}
+                step4={step4}
+                setStep4={setStep4}
+                step5={step5}
+                setStep5={setStep5}
+                step6={step6}
+                setStep6={setStep6}
+                step7={step7}
+                setStep7={setStep7}
+            />
 
             <Flex direction="column" alignItems="center" justifyContent="center">
                 <canvas

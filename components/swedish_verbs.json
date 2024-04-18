@@ -1,0 +1,928 @@
+{
+  "verbs": [
+    {
+      "word": "to be",
+      "infinitive": "att vara",
+      "present": "är",
+      "past": "var",
+      "past_perfect": "hade varit",
+      "examples": {
+        "infinitive": "Jag vill vara frisk.",
+        "past": "Jag var glad igår.",
+        "past_perfect": "Jag hade varit där tidigare."
+      }
+    },
+    {
+      "word": "to have",
+      "infinitive": "att ha",
+      "present": "har",
+      "past": "hade",
+      "past_perfect": "hade haft",
+      "examples": {
+        "infinitive": "Jag vill ha ett äpple.",
+        "past": "Jag hade en hund när jag var liten.",
+        "past_perfect": "Jag hade haft det jobbet i fem år."
+      }
+    },
+    {
+      "word": "to do",
+      "infinitive": "att göra",
+      "present": "gör",
+      "past": "gjorde",
+      "past_perfect": "hade gjort",
+      "examples": {
+        "infinitive": "Vad ska vi göra imorgon?",
+        "past": "Jag gjorde min läxa igår.",
+        "past_perfect": "Han hade gjort allt innan jag kom."
+      }
+    },
+    {
+      "word": "to say",
+      "infinitive": "att säga",
+      "present": "säger",
+      "past": "sa",
+      "past_perfect": "hade sagt",
+      "examples": {
+        "infinitive": "Vad vill du säga?",
+        "past": "Hon sa ingenting.",
+        "past_perfect": "Jag hade sagt att jag skulle komma."
+      }
+    },
+    {
+      "word": "to go",
+      "infinitive": "att gå",
+      "present": "går",
+      "past": "gick",
+      "past_perfect": "hade gått",
+      "examples": {
+        "infinitive": "Vi kan gå till parken.",
+        "past": "Jag gick till affären igår.",
+        "past_perfect": "Vi hade gått långt innan vi insåg felet."
+      }
+    },
+    {
+      "word": "to see",
+      "infinitive": "att se",
+      "present": "ser",
+      "past": "såg",
+      "past_perfect": "hade sett",
+      "examples": {
+        "infinitive": "Jag vill se filmen ikväll.",
+        "past": "Jag såg min vän på stan.",
+        "past_perfect": "Han hade sett det förut."
+      }
+    },
+    {
+      "word": "to come",
+      "infinitive": "att komma",
+      "present": "kommer",
+      "past": "kom",
+      "past_perfect": "hade kommit",
+      "examples": {
+        "infinitive": "Vi ska komma imorgon.",
+        "past": "Jag kom hem sent igår.",
+        "past_perfect": "Hon hade kommit långt i boken."
+      }
+    },
+    {
+      "word": "to want",
+      "infinitive": "att vilja",
+      "present": "vill",
+      "past": "ville",
+      "past_perfect": "hade velat",
+      "examples": {
+        "infinitive": "Vad vill du ha?",
+        "past": "Jag ville gå ut, men det regnade.",
+        "past_perfect": "Jag hade velat ha en ny cykel."
+      }
+    },
+    {
+      "word": "to can",
+      "infinitive": "att kunna",
+      "present": "kan",
+      "past": "kunde",
+      "past_perfect": "hade kunnat",
+      "examples": {
+        "infinitive": "Jag kan simma.",
+        "past": "Jag kunde inte hitta mina nycklar.",
+        "past_perfect": "Jag hade kunnat hjälpa dig om du frågat."
+      }
+    },
+    {
+      "word": "to take",
+      "infinitive": "att ta",
+      "present": "tar",
+      "past": "tog",
+      "past_perfect": "hade tagit",
+      "examples": {
+        "infinitive": "Kan du ta en bild?",
+        "past": "Jag tog bussen till jobbet idag.",
+        "past_perfect": "Jag hade tagit mitt körkort när jag var 18 år."
+      }
+    },
+    {
+      "word": "to get",
+      "infinitive": "att få",
+      "present": "får",
+      "past": "fick",
+      "past_perfect": "hade fått",
+      "examples": {
+        "infinitive": "Jag ska få en present imorgon.",
+        "past": "Jag fick ett brev från min vän.",
+        "past_perfect": "Hon hade fått en nyckel från sin granne."
+      }
+    },
+    {
+      "word": "to give",
+      "infinitive": "att ge",
+      "present": "ger",
+      "past": "gav",
+      "past_perfect": "hade gett",
+      "examples": {
+        "infinitive": "Kan du ge mig en penna?",
+        "past": "Han gav mig en bok i födelsedagspresent.",
+        "past_perfect": "Hon hade gett mig råd innan jag gick till intervjun."
+      }
+    },
+    {
+      "word": "to think",
+      "infinitive": "att tänka",
+      "present": "tänker",
+      "past": "tänkte",
+      "past_perfect": "hade tänkt",
+      "examples": {
+        "infinitive": "Vad tänker du göra imorgon?",
+        "past": "Jag tänkte på dig igår.",
+        "past_perfect": "Han hade tänkt på det innan han bestämde sig."
+      }
+    },
+    {
+      "word": "to make",
+      "infinitive": "att göra",
+      "present": "gör",
+      "past": "gjorde",
+      "past_perfect": "hade gjort",
+      "examples": {
+        "infinitive": "Vad gör du?",
+        "past": "Jag gjorde en tårta till kalaset.",
+        "past_perfect": "Hon hade gjort sitt bästa för att hjälpa till."
+      }
+    },
+    {
+      "word": "to feel",
+      "infinitive": "att känna",
+      "present": "känner",
+      "past": "kände",
+      "past_perfect": "hade känt",
+      "examples": {
+        "infinitive": "Jag känner mig glad idag.",
+        "past": "Han kände sig ensam.",
+        "past_perfect": "Hon hade känt det på sig."
+      }
+    },
+    {
+      "word": "to need",
+      "infinitive": "att behöva",
+      "present": "behöver",
+      "past": "behövde",
+      "past_perfect": "hade behövt",
+      "examples": {
+        "infinitive": "Jag behöver din hjälp.",
+        "past": "Hon behövde vila efter lång resa.",
+        "past_perfect": "Vi hade behövt mer tid för att slutföra projektet."
+      }
+    },
+    {
+      "word": "to believe",
+      "infinitive": "att tro",
+      "present": "tror",
+      "past": "trodde",
+      "past_perfect": "hade trott",
+      "examples": {
+        "infinitive": "Jag tror på dig.",
+        "past": "Hon trodde på det han sa.",
+        "past_perfect": "Vi hade trott att det skulle bli soligt idag."
+      }
+    },
+    {
+      "word": "to find",
+      "infinitive": "att hitta",
+      "present": "hittar",
+      "past": "hittade",
+      "past_perfect": "hade hittat",
+      "examples": {
+        "infinitive": "Kan du hjälpa mig att hitta mina nycklar?",
+        "past": "Hon hittade en gammal vän på gatan.",
+        "past_perfect": "Vi hade hittat ett mysigt café i stan."
+      }
+    },
+    {
+      "word": "to become",
+      "infinitive": "att bli",
+      "present": "blir",
+      "past": "blev",
+      "past_perfect": "hade blivit",
+      "examples": {
+        "infinitive": "Jag vill bli läkare när jag blir stor.",
+        "past": "Han blev rörd av hennes ord.",
+        "past_perfect": "Hon hade blivit bättre på att laga mat efter kursen."
+      }
+    },
+    {
+      "word": "to stand",
+      "infinitive": "att stå",
+      "present": "står",
+      "past": "stod",
+      "past_perfect": "hade stått",
+      "examples": {
+        "infinitive": "Jag står här och väntar på dig.",
+        "past": "Hon stod vid busshållplatsen i en timme.",
+        "past_perfect": "Vi hade stått i kön i över en timme innan vi kom in."
+      }
+    },
+    {
+      "word": "to put",
+      "infinitive": "att sätta",
+      "present": "sätter",
+      "past": "satte",
+      "past_perfect": "hade satt",
+      "examples": {
+        "infinitive": "Kan du sätta dig här?",
+        "past": "Hon satte blommorna i vasen.",
+        "past_perfect": "Jag hade satt mig på bussen när jag kom på att jag glömt plånboken."
+      }
+    },
+    {
+      "word": "to work",
+      "infinitive": "att jobba",
+      "present": "jobbar",
+      "past": "jobbade",
+      "past_perfect": "hade jobbat",
+      "examples": {
+        "infinitive": "Jag jobbar på ett IT-företag.",
+        "past": "Hon jobbade extra igår kväll.",
+        "past_perfect": "Vi hade jobbat hårt hela veckan."
+      }
+    },
+    {
+      "word": "to read",
+      "infinitive": "att läsa",
+      "present": "läser",
+      "past": "läste",
+      "past_perfect": "hade läst",
+      "examples": {
+        "infinitive": "Jag läser en spännande bok.",
+        "past": "Hon läste tidningen på tåget.",
+        "past_perfect": "Vi hade läst om det tidigare."
+      }
+    },
+    {
+      "word": "to write",
+      "infinitive": "att skriva",
+      "present": "skriver",
+      "past": "skrev",
+      "past_perfect": "hade skrivit",
+      "examples": {
+        "infinitive": "Jag skriver en berättelse.",
+        "past": "Han skrev ett brev till sin vän.",
+        "past_perfect": "Hon hade skrivit klart rapporten innan mötet."
+      }
+    },
+    {
+      "word": "to call",
+      "infinitive": "att ringa",
+      "present": "ringer",
+      "past": "ringde",
+      "past_perfect": "hade ringt",
+      "examples": {
+        "infinitive": "Jag ringer dig senare.",
+        "past": "Han ringde polisen när han såg inbrottstjuven.",
+        "past_perfect": "Hon hade ringt sin mamma för att säga att hon var försenad."
+      }
+    },
+    {
+      "word": "to eat",
+      "infinitive": "att äta",
+      "present": "äter",
+      "past": "åt",
+      "past_perfect": "hade ätit",
+      "examples": {
+        "infinitive": "Jag äter frukost varje morgon.",
+        "past": "Han åt en stor lunch på restaurangen.",
+        "past_perfect": "Vi hade ätit middag när gästerna kom."
+      }
+    },
+    {
+      "word": "to start",
+      "infinitive": "att börja",
+      "present": "börjar",
+      "past": "började",
+      "past_perfect": "hade börjat",
+      "examples": {
+        "infinitive": "Vi börjar klockan åtta imorgon.",
+        "past": "Hon började sin karriär som skådespelerska.",
+        "past_perfect": "Jag hade börjat leta efter nytt jobb innan jag fick det här erbjudandet."
+      }
+    },
+    {
+      "word": "to feel",
+      "infinitive": "att känna",
+      "present": "känner",
+      "past": "kände",
+      "past_perfect": "hade känt",
+      "examples": {
+        "infinitive": "Jag känner mig glad idag.",
+        "past": "Han kände sig ensam.",
+        "past_perfect": "Hon hade känt det på sig."
+      }
+    },
+    {
+      "word": "to need",
+      "infinitive": "att behöva",
+      "present": "behöver",
+      "past": "behövde",
+      "past_perfect": "hade behövt",
+      "examples": {
+        "infinitive": "Jag behöver din hjälp.",
+        "past": "Hon behövde vila efter lång resa.",
+        "past_perfect": "Vi hade behövt mer tid för att slutföra projektet."
+      }
+    },
+    {
+      "word": "to believe",
+      "infinitive": "att tro",
+      "present": "tror",
+      "past": "trodde",
+      "past_perfect": "hade trott",
+      "examples": {
+        "infinitive": "Jag tror på dig.",
+        "past": "Hon trodde på det han sa.",
+        "past_perfect": "Vi hade trott att det skulle bli soligt idag."
+      }
+    },
+    {
+      "word": "to find",
+      "infinitive": "att hitta",
+      "present": "hittar",
+      "past": "hittade",
+      "past_perfect": "hade hittat",
+      "examples": {
+        "infinitive": "Kan du hjälpa mig att hitta mina nycklar?",
+        "past": "Hon hittade en gammal vän på gatan.",
+        "past_perfect": "Vi hade hittat ett mysigt café i stan."
+      }
+    },
+    {
+      "word": "to become",
+      "infinitive": "att bli",
+      "present": "blir",
+      "past": "blev",
+      "past_perfect": "hade blivit",
+      "examples": {
+        "infinitive": "Jag vill bli läkare när jag blir stor.",
+        "past": "Han blev rörd av hennes ord.",
+        "past_perfect": "Hon hade blivit bättre på att laga mat efter kursen."
+      }
+    },
+    {
+      "word": "to stand",
+      "infinitive": "att stå",
+      "present": "står",
+      "past": "stod",
+      "past_perfect": "hade stått",
+      "examples": {
+        "infinitive": "Jag står här och väntar på dig.",
+        "past": "Hon stod vid busshållplatsen i en timme.",
+        "past_perfect": "Vi hade stått i kön i över en timme innan vi kom in."
+      }
+    },
+    {
+      "word": "to put",
+      "infinitive": "att sätta",
+      "present": "sätter",
+      "past": "satte",
+      "past_perfect": "hade satt",
+      "examples": {
+        "infinitive": "Kan du sätta dig här?",
+        "past": "Hon satte blommorna i vasen.",
+        "past_perfect": "Jag hade satt mig på bussen när jag kom på att jag glömt plånboken."
+      }
+    },
+    {
+      "word": "to work",
+      "infinitive": "att jobba",
+      "present": "jobbar",
+      "past": "jobbade",
+      "past_perfect": "hade jobbat",
+      "examples": {
+        "infinitive": "Jag jobbar på ett IT-företag.",
+        "past": "Hon jobbade extra igår kväll.",
+        "past_perfect": "Vi hade jobbat hårt hela veckan."
+      }
+    },
+    {
+      "word": "to read",
+      "infinitive": "att läsa",
+      "present": "läser",
+      "past": "läste",
+      "past_perfect": "hade läst",
+      "examples": {
+        "infinitive": "Jag läser en spännande bok.",
+        "past": "Hon läste tidningen på tåget.",
+        "past_perfect": "Vi hade läst om det tidigare."
+      }
+    },
+    {
+      "word": "to write",
+      "infinitive": "att skriva",
+      "present": "skriver",
+      "past": "skrev",
+      "past_perfect": "hade skrivit",
+      "examples": {
+        "infinitive": "Jag skriver en berättelse.",
+        "past": "Han skrev ett brev till sin vän.",
+        "past_perfect": "Hon hade skrivit klart rapporten innan mötet."
+      }
+    },
+    {
+      "word": "to call",
+      "infinitive": "att ringa",
+      "present": "ringer",
+      "past": "ringde",
+      "past_perfect": "hade ringt",
+      "examples": {
+        "infinitive": "Jag ska ringa min mamma senare.",
+        "past": "Han ringde polisen när han såg inbrottstjuvarna.",
+        "past_perfect": "Vi hade ringt och bokat bord på restaurangen."
+      }
+    },
+    {
+      "word": "to eat",
+      "infinitive": "att äta",
+      "present": "äter",
+      "past": "åt",
+      "past_perfect": "hade ätit",
+      "examples": {
+        "infinitive": "Vi ska äta middag nu.",
+        "past": "Hon åt en stor lunch på restaurangen.",
+        "past_perfect": "Jag hade ätit frukost innan jag gick till jobbet."
+      }
+    },
+    {
+      "word": "to start",
+      "infinitive": "att börja",
+      "present": "börjar",
+      "past": "började",
+      "past_perfect": "hade börjat",
+      "examples": {
+        "infinitive": "Vi börjar lektionen klockan nio.",
+        "past": "Han började spela piano när han var fem år gammal.",
+        "past_perfect": "Jag hade börjat läsa boken innan jag somnade."
+      }
+    },
+    {
+      "word": "to see",
+      "infinitive": "att se",
+      "present": "ser",
+      "past": "såg",
+      "past_perfect": "hade sett",
+      "examples": {
+        "infinitive": "Jag ser dig.",
+        "past": "Hon såg filmen på bio igår.",
+        "past_perfect": "Vi hade sett den nya restaurangen tidigare."
+      }
+    },
+    {
+      "word": "to do",
+      "infinitive": "att göra",
+      "present": "gör",
+      "past": "gjorde",
+      "past_perfect": "hade gjort",
+      "examples": {
+        "infinitive": "Vad gör du?",
+        "past": "Han gjorde sina läxor på biblioteket.",
+        "past_perfect": "Jag hade gjort klart mitt arbete innan mötet började."
+      }
+    },
+    {
+      "word": "to ask",
+      "infinitive": "att fråga",
+      "present": "frågar",
+      "past": "frågade",
+      "past_perfect": "hade frågat",
+      "examples": {
+        "infinitive": "Kan jag få fråga dig något?",
+        "past": "Hon frågade sin lärare om hjälp.",
+        "past_perfect": "Vi hade frågat om vägen flera gånger."
+      }
+    },
+    {
+      "word": "to come",
+      "infinitive": "att komma",
+      "present": "kommer",
+      "past": "kom",
+      "past_perfect": "hade kommit",
+      "examples": {
+        "infinitive": "Han kommer till festen ikväll.",
+        "past": "Jag kom hem sent igår kväll.",
+        "past_perfect": "Hon hade kommit långt i boken när jag pratade med henne."
+      }
+    },
+    {
+      "word": "to go",
+      "infinitive": "att gå",
+      "present": "går",
+      "past": "gick",
+      "past_perfect": "hade gått",
+      "examples": {
+        "infinitive": "Vi går till skolan varje dag.",
+        "past": "Han gick till affären för att köpa mjölk.",
+        "past_perfect": "Vi hade gått flera kilometer innan vi kom fram till stugan."
+      }
+    },
+    {
+      "word": "to want",
+      "infinitive": "att vilja",
+      "present": "vill",
+      "past": "ville",
+      "past_perfect": "hade velat",
+      "examples": {
+        "infinitive": "Jag vill ha glass.",
+        "past": "Hon ville resa till Paris på semestern.",
+        "past_perfect": "Vi hade velat gå på konserten, men biljetterna var slutsålda."
+      }
+    },
+    {
+      "word": "to believe",
+      "infinitive": "att tro",
+      "present": "tror",
+      "past": "trodde",
+      "past_perfect": "hade trott",
+      "examples": {
+        "infinitive": "Jag tror på dig.",
+        "past": "Hon trodde på det han sa.",
+        "past_perfect": "Vi hade trott att det skulle bli soligt idag."
+      }
+    },
+    {
+      "word": "to make",
+      "infinitive": "att göra",
+      "present": "gör",
+      "past": "gjorde",
+      "past_perfect": "hade gjort",
+      "examples": {
+        "infinitive": "Vi måste göra vårt bästa.",
+        "past": "Hon gjorde en kaka till fikat.",
+        "past_perfect": "Jag hade gjort klart uppgiften innan deadline."
+      }
+    },
+    {
+      "word": "to feel",
+      "infinitive": "att känna",
+      "present": "känner",
+      "past": "kände",
+      "past_perfect": "hade känt",
+      "examples": {
+        "infinitive": "Jag känner mig trött.",
+        "past": "Han kände sig lycklig efter nyheten.",
+        "past_perfect": "Vi hade känt varandra i flera år innan vi blev vänner."
+      }
+    },
+    {
+      "word": "to need",
+      "infinitive": "att behöva",
+      "present": "behöver",
+      "past": "behövde",
+      "past_perfect": "hade behövt",
+      "examples": {
+        "infinitive": "Jag behöver din hjälp.",
+        "past": "Hon behövde vila efter jobbet.",
+        "past_perfect": "Vi hade behövt mer tid för att slutföra projektet."
+      }
+    },
+    {
+      "word": "to believe",
+      "infinitive": "att tro",
+      "present": "tror",
+      "past": "trodde",
+      "past_perfect": "hade trott",
+      "examples": {
+        "infinitive": "Jag tror på dig.",
+        "past": "Hon trodde på det han sa.",
+        "past_perfect": "Vi hade trott att det skulle bli soligt idag."
+      }
+    },
+    {
+      "word": "to find",
+      "infinitive": "att hitta",
+      "present": "hittar",
+      "past": "hittade",
+      "past_perfect": "hade hittat",
+      "examples": {
+        "infinitive": "Jag hittade mina nycklar.",
+        "past": "Han hittade en intressant artikel på internet.",
+        "past_perfect": "Vi hade hittat den perfekta presenten till henne."
+      }
+    },
+    {
+      "word": "to become",
+      "infinitive": "att bli",
+      "present": "blir",
+      "past": "blev",
+      "past_perfect": "hade blivit",
+      "examples": {
+        "infinitive": "Hon vill bli läkare.",
+        "past": "Han blev trött efter långpromenaden.",
+        "past_perfect": "Jag hade blivit ledsen om du inte kommit på festen."
+      }
+    },
+    {
+      "word": "to stand",
+      "infinitive": "att stå",
+      "present": "står",
+      "past": "stod",
+      "past_perfect": "hade stått",
+      "examples": {
+        "infinitive": "Hon står och väntar på bussen.",
+        "past": "Han stod vid fönstret och tittade ut.",
+        "past_perfect": "Vi hade stått i kö i över en timme."
+      }
+    },
+    {
+      "word": "to put",
+      "infinitive": "att sätta",
+      "present": "sätter",
+      "past": "satte",
+      "past_perfect": "hade satt",
+      "examples": {
+        "infinitive": "Hon sätter sig ner och vilar en stund.",
+        "past": "Jag satte mig på stolen bredvid.",
+        "past_perfect": "Vi hade satt upp en skylt för att guida besökare."
+      }
+    },
+    {
+      "word": "to work",
+      "infinitive": "att jobba",
+      "present": "jobbar",
+      "past": "jobbade",
+      "past_perfect": "hade jobbat",
+      "examples": {
+        "infinitive": "Jag jobbar på kontoret.",
+        "past": "Han jobbade sent igår kväll.",
+        "past_perfect": "Vi hade jobbat ihop på samma projekt tidigare."
+      }
+    },
+    {
+      "word": "to read",
+      "infinitive": "att läsa",
+      "present": "läser",
+      "past": "läste",
+      "past_perfect": "hade läst",
+      "examples": {
+        "infinitive": "Jag läser en bra bok just nu.",
+        "past": "Hon läste tidningen på tåget.",
+        "past_perfect": "Vi hade läst om det i tidningen innan vi åkte dit."
+      }
+    },
+    {
+      "word": "to find",
+      "infinitive": "att hitta",
+      "present": "hittar",
+      "past": "hittade",
+      "past_perfect": "hade hittat",
+      "examples": {
+        "infinitive": "Kan du hjälpa mig att hitta mina nycklar?",
+        "past": "Jag hittade en intressant bok på biblioteket.",
+        "past_perfect": "Vi hade hittat en bra plats att campa på."
+      }
+    },
+    {
+      "word": "to become",
+      "infinitive": "att bli",
+      "present": "blir",
+      "past": "blev",
+      "past_perfect": "hade blivit",
+      "examples": {
+        "infinitive": "Jag vill bli läkare när jag blir stor.",
+        "past": "Hon blev glad när hon fick höra nyheterna.",
+        "past_perfect": "Han hade blivit expert på att spela gitarr."
+      }
+    },
+    {
+      "word": "to stand",
+      "infinitive": "att stå",
+      "present": "står",
+      "past": "stod",
+      "past_perfect": "hade stått",
+      "examples": {
+        "infinitive": "Han står och väntar på bussen.",
+        "past": "Jag stod längst fram under konserten.",
+        "past_perfect": "Vi hade stått i kö i över en timme."
+      }
+    },
+    {
+      "word": "to put",
+      "infinitive": "att sätta",
+      "present": "sätter",
+      "past": "satte",
+      "past_perfect": "hade satt",
+      "examples": {
+        "infinitive": "Hon sätter sina skor på hyllan.",
+        "past": "Jag satte mig vid fönstret.",
+        "past_perfect": "Vi hade satt upp en lapp på dörren."
+      }
+    },
+    {
+      "word": "to work",
+      "infinitive": "att jobba",
+      "present": "jobbar",
+      "past": "jobbade",
+      "past_perfect": "hade jobbat",
+      "examples": {
+        "infinitive": "Jag jobbar på ett kontor.",
+        "past": "Han jobbade hårt för att nå sina mål.",
+        "past_perfect": "Vi hade jobbat tillsammans i flera år."
+      }
+    },
+    {
+      "word": "to read",
+      "infinitive": "att läsa",
+      "present": "läser",
+      "past": "läste",
+      "past_perfect": "hade läst",
+      "examples": {
+        "infinitive": "Hon läser en spännande bok.",
+        "past": "Jag läste tidningen på tåget.",
+        "past_perfect": "Vi hade läst om händelsen i tidningen."
+      }
+    },
+    {
+      "word": "to write",
+      "infinitive": "att skriva",
+      "present": "skriver",
+      "past": "skrev",
+      "past_perfect": "hade skrivit",
+      "examples": {
+        "infinitive": "Jag skriver en berättelse.",
+        "past": "Hon skrev ett brev till sin vän.",
+        "past_perfect": "Vi hade skrivit klart rapporten innan mötet."
+      }
+    },
+    {
+      "word": "to call",
+      "infinitive": "att ringa",
+      "present": "ringer",
+      "past": "ringde",
+      "past_perfect": "hade ringt",
+      "examples": {
+        "infinitive": "Jag ringer dig senare.",
+        "past": "Hon ringde sin mamma igår kväll.",
+        "past_perfect": "Vi hade ringt och bokat bord på restaurangen."
+      }
+    },
+    {
+      "word": "to eat",
+      "infinitive": "att äta",
+      "present": "äter",
+      "past": "åt",
+      "past_perfect": "hade ätit",
+      "examples": {
+        "infinitive": "Vi äter middag nu.",
+        "past": "Han åt en stor portion mat på restaurangen.",
+        "past_perfect": "Jag hade ätit frukost innan jag gick till jobbet."
+      }
+    },
+    {
+      "word": "to start",
+      "infinitive": "att börja",
+      "present": "börjar",
+      "past": "började",
+      "past_perfect": "hade börjat",
+      "examples": {
+        "infinitive": "Vi börjar lektionen klockan nio.",
+        "past": "Han började spela piano när han var fem år gammal.",
+        "past_perfect": "Jag hade börjat läsa boken innan jag somnade."
+      }
+    },
+    {
+      "word": "to see",
+      "infinitive": "att se",
+      "present": "ser",
+      "past": "såg",
+      "past_perfect": "hade sett",
+      "examples": {
+        "infinitive": "Hon vill se filmen ikväll.",
+        "past": "Jag såg min vän på stan.",
+        "past_perfect": "Han hade sett det förut."
+      }
+    },
+    {
+      "word": "to do",
+      "infinitive": "att göra",
+      "present": "gör",
+      "past": "gjorde",
+      "past_perfect": "hade gjort",
+      "examples": {
+        "infinitive": "Vad ska vi göra imorgon?",
+        "past": "Jag gjorde min läxa igår.",
+        "past_perfect": "Han hade gjort allt innan jag kom."
+      }
+    },
+    {
+      "word": "to ask",
+      "infinitive": "att fråga",
+      "present": "frågar",
+      "past": "frågade",
+      "past_perfect": "hade frågat",
+      "examples": {
+        "infinitive": "Jag vill fråga dig något.",
+        "past": "Hon frågade om vägen till stationen.",
+        "past_perfect": "Vi hade frågat om tillståndet i förväg."
+      }
+    },
+    {
+      "word": "to come",
+      "infinitive": "att komma",
+      "present": "kommer",
+      "past": "kom",
+      "past_perfect": "hade kommit",
+      "examples": {
+        "infinitive": "Vi ska komma imorgon.",
+        "past": "Jag kom hem sent igår.",
+        "past_perfect": "Hon hade kommit långt i boken."
+      }
+    },
+    {
+      "word": "to go",
+      "infinitive": "att gå",
+      "present": "går",
+      "past": "gick",
+      "past_perfect": "hade gått",
+      "examples": {
+        "infinitive": "Vi kan gå till parken.",
+        "past": "Jag gick till affären igår.",
+        "past_perfect": "Vi hade gått långt innan vi insåg felet."
+      }
+    },
+    {
+      "word": "to want",
+      "infinitive": "att vilja",
+      "present": "vill",
+      "past": "ville",
+      "past_perfect": "hade velat",
+      "examples": {
+        "infinitive": "Vad vill du ha?",
+        "past": "Jag ville gå ut, men det regnade.",
+        "past_perfect": "Jag hade velat ha en ny cykel."
+      }
+    },
+    {
+      "word": "to believe",
+      "infinitive": "att tro",
+      "present": "tror",
+      "past": "trodde",
+      "past_perfect": "hade trott",
+      "examples": {
+        "infinitive": "Jag tror på dig.",
+        "past": "Hon trodde inte sina ögon.",
+        "past_perfect": "Vi hade trott att det skulle bli en bra dag."
+      }
+    },
+    {
+      "word": "to get",
+      "infinitive": "att få",
+      "present": "får",
+      "past": "fick",
+      "past_perfect": "hade fått",
+      "examples": {
+        "infinitive": "Jag ska få en present imorgon.",
+        "past": "Jag fick ett brev från min vän.",
+        "past_perfect": "Hon hade fått en nyckel från sin granne."
+      }
+    },
+    {
+      "word": "to give",
+      "infinitive": "att ge",
+      "present": "ger",
+      "past": "gav",
+      "past_perfect": "hade gett",
+      "examples": {
+        "infinitive": "Han ger alltid till välgörenhet.",
+        "past": "Jag gav henne en blomma.",
+        "past_perfect": "Vi hade gett upp hoppet om att hitta vägen."
+      }
+    },
+    {
+      "word": "to think",
+      "infinitive": "att tänka",
+      "present": "tänker",
+      "past": "tänkte",
+      "past_perfect": "hade tänkt",
+      "examples": {
+        "infinitive": "Vad tänker du göra ikväll?",
+        "past": "Hon tänkte länge innan hon svarade.",
+        "past_perfect": "Jag hade tänkt på det hela natten."
+      }
+    }
+  ]
+}
