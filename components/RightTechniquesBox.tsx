@@ -1,5 +1,16 @@
 import React, { useState } from 'react'
-import { Box, Stack, Radio, RadioGroup, Input, Text, VStack } from '@chakra-ui/react'
+import {
+    Box,
+    Stack,
+    Radio,
+    RadioGroup,
+    Input,
+    Text,
+    VStack,
+    Tooltip,
+    Button,
+    Center,
+} from '@chakra-ui/react'
 import { TechniquesEnum } from './RotationGains'
 
 const RightTechniquesBox = ({
@@ -29,7 +40,9 @@ const RightTechniquesBox = ({
     setStep6,
     step7,
     setStep7,
+    handleSetReturnGain,
 }) => {
+
     return (
         <Box position="fixed" top="0" right="0">
             <RadioGroup onChange={handleTechniquesChange} value={technique}>
@@ -57,6 +70,18 @@ const RightTechniquesBox = ({
                                     Indirect Map Constant
                                 </Radio>
                             </Stack>
+                            <Center>
+                                <Tooltip label="Virtual Angle / Physical Angle">
+                                    <Button
+                                        onClick={handleSetReturnGain}
+                                        mt="4"
+                                        size="sm"
+                                        colorScheme="facebook"
+                                    >
+                                        Set Return Gain
+                                    </Button>
+                                </Tooltip>
+                            </Center>
                         </Stack>
                     </Box>
                     <Box

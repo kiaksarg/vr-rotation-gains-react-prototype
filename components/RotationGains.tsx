@@ -235,26 +235,28 @@ const RotationGains: React.FC = () => {
             case TechniquesEnum.VelocityGuided:
                 new_gain = velocityGuidedGain(velocity)
                 break
-
             case TechniquesEnum.DynamicNonLinear:
-                new_gain = dynamicNonLinearGain(
-                    amplifiedVirtualAngle,
-                    minGain,
-                    maxGain,
-                    halfRotation
+                new_gain = parseFloat(
+                    dynamicNonLinearGain(
+                        amplifiedVirtualAngle,
+                        minGain,
+                        maxGain,
+                        halfRotation
+                    ).toFixed(3)
                 )
                 break
-
             case TechniquesEnum.physicalAngleStepBasedGain:
-                new_gain = physicalAngleStepBasedGain(val, [
-                    step1,
-                    step2,
-                    step3,
-                    step4,
-                    step5,
-                    step6,
-                    step7,
-                ])
+                new_gain = parseFloat(
+                    physicalAngleStepBasedGain(val, [
+                        step1,
+                        step2,
+                        step3,
+                        step4,
+                        step5,
+                        step6,
+                        step7,
+                    ]).toFixed(3)
+                )
                 break
             case TechniquesEnum.virtualAngleStepBasedGain:
                 new_gain = virtualAngleStepBasedGain(amplifiedVirtualAngle, [
@@ -299,6 +301,11 @@ const RotationGains: React.FC = () => {
         }
 
         setInputPhysicalAngle(parseFloat(val))
+    }
+
+    const handleSetReturnGain = () => {
+        if (inputPhysicalAngle === 0) setGain(1)
+        else setGain(parseFloat((amplifiedVirtualAngle / inputPhysicalAngle).toFixed(3)))
     }
 
     // Function to handle adding more points
@@ -362,6 +369,7 @@ const RotationGains: React.FC = () => {
                 technique={technique}
                 gain={gain}
                 handleGainInputChange={handleGainInputChange}
+                handleSetReturnGain={handleSetReturnGain}
                 minGain={minGain}
                 setMinGain={setMinGain}
                 maxGain={maxGain}
