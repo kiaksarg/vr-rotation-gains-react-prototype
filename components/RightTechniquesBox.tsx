@@ -42,7 +42,6 @@ const RightTechniquesBox = ({
     setStep7,
     handleSetReturnGain,
 }) => {
-
     return (
         <Box position="fixed" top="0" right="0">
             <RadioGroup onChange={handleTechniquesChange} value={technique}>
